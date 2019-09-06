@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>LookingAfterEarth</title>
 
     <!-- ADD BOOTSTRAP CORE HERE!!!! --> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -14,34 +14,53 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body> 
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Useful Numbers
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Fire Departments</a>
+                  <a class="dropdown-item" href="#">Police Departments</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Emergency Lines</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Join the Cause/Sign In</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navigation</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home Page <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Useful Numbers</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    
 
     <main role="main" class="container">
 
       <div class="starter-template">
         <h1>LookingAfterEarth</h1>
-        <p class="lead">Welcome To Reality<br> Lets make a difference before it's too late</p>
+        <h1 class="lead"><h1>Welcome To Reality</h1><br> Lets make a difference before it's too late</h1>
+        <br>
+        <br>
+        <br>
       </div>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -71,17 +90,17 @@
       </div>
       <br>
       <br>
-      <p>Mankind is slowly destroyingour planet and we need to
+      <h1>Mankind is slowly destroying our planet and we need to
           <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 take action
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">donate</a>
-                <a class="dropdown-item" href="#">get informed</a>
-                <a class="dropdown-item" href="#">useful links</a>
+                <a class="dropdown-item" href="#">Donate</a>
+                <a class="dropdown-item" href="#">Get Informed</a>
+                <a class="dropdown-item" href="#">Useful Links</a>
               </div>
-            </div></p>
+            </div><h1>
             <br>
             <br>
 
@@ -91,37 +110,21 @@
         <div class="col-sm">
           <!-- add an image here -->
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOWBpVgeAsXDBgQ1nUWXluKEX-GIdpACvFyKhEX9qh-I-KKnbFzA" class="d-block w-100" alt="...">
-          One of three columns
-        </div>
+          <p>If we keep burning fossil fuels indefinitely, global warming will eventually melt all the ice at the poles and on mountaintops, raising sea level by 216 feet.</p>
+        <br></div>
         <div class="col-sm">
           <!-- add an image here --> 
           <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
-          One of three columns
-        </div>
+          <p>As climate change helps push up the number of wildfires in the world, communities face losing lives and properties to the flames. But another threat also looms large – dangerous exposure to wildfire smoke.</p>
+        <br></div>
         <div class="col-sm">
           <!-- add an image here -->
           <img src="https://www.medicalnewstoday.com/content//images/articles/325/325264/shot-of-plastic-bag-and-bottles-in-ocean.jpg" class="d-block w-100" alt="...">
-          One of three columns
+          <p>Around 8 million metric tonnes go into the oceans each year, according to the first rigorous global estimate published in Science today.</p>
         </div>
       </div>
       <br>
       <br>
-      
-      <!-- Add another row here -->
-      <div class="row">
-        <div class="col-sm">
-          marine life
-        </div>
-        <div class="co-sm">
-          forest wildfires
-        </div>
-        <div class="col-sm">
-          global warming 
-        </div>
-        <div class="col-sm">
-          plastic pollution
-        </div>
-      </div>
       <br>
       <br>
       <p>Make the first step in saving our planet while there is still time. Visit other sites and help them with their cause. Tap <div class="btn-group">
@@ -134,6 +137,7 @@
             <li><a href="https://www.unenvironment.org/get-involved">UN Enviromental Sector</a></li>
             <li><a href="https://earth.org">Earth</a></li>
             <li><a href="https://www.worldwildlife.org/">WWF Organization</a></li>
+            <li><a href="https://www.cleanseas.org/">Clean Seas Organization</a></li>
             </ul>
           
           </div>
@@ -148,6 +152,14 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+    <div class="card bg-dark text-white">
+        <img class="card-img" src="image1.jpeg" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Remember</h5>
+          <p class="card-text">"Earth provides enough to satisfy every man's needs, but not every man's greed"</p>
+          <p class="card-text">Mahatma Gandhi</p>
+        </div>
+      </div>
     
     <div class="card">
       <div class="card-header">
@@ -156,7 +168,10 @@
       <div class="card-body">
         <h5 class="card-title">Made by I CU HACK</h5>
         <p class="card-text">CodeLikeAGirl 2019</p>
-        <a href="#" class="btn btn-primary">visit page</a>
+        <p class="card-text">Follow the Creators on Social Media</p>
+        <a href="https://www.instagram.com/_olgaioakeim_/" class="btn btn-primary">follow</a>
+        <a href="https://www.instagram.com/mariagrassou/" class="btn btn-primary">follow</a>
+        <a href="https://www.instagram.com/mel.tsochantari/?hl=el" class="btn btn-primary">follow</a>
       </div>
     </div>
   </body>
