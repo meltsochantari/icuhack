@@ -1,0 +1,24 @@
+body {
+    background-image: url('../images/bg.png');
+    text-shadow: 1px 1px 5px #ccc;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+.navigationbar {
+    color: #1c5ca3;
+    background-color: #8db18c
+}
+#footerj {
+    color: #8db18c
+}
+h2.light {
+    font-weight: 100;
+    font-size: 1.2cm
+}
+h1.title {
+    font-weight: 300;
+    font-size: 2cm
+}
+  
